@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://ko.wikipedia.org">야호</a>
+    <br>
+    <!-- body 웹브라우저가 해석해야할 html 문서의 구조 범위를 지정 -->
+    <!-- 즉 body의 내용 및 구조는 사용자가 화면을 통해서 볼 수 있는 내용 -->
+    <a href="https://naver.com">네이버</a><br>
+    <a href="https://google.com">구글</a><br>
+    <a href="https://chatgpt.com/">chatGPT</a><br>
+</body>
+</html>
