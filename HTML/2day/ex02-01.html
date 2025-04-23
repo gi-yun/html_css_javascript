@@ -1,29 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <h3><a href="../index.html">홈</a></h3>
+  <body>
+    <h3><a href="../index.html">홈으로 돌아가기</a></h3>
     <fieldset>
-        <legend>제출양식</legend>
-        <form action="ex02-01a0.html">
-            <input type="text" name="" class="javaclass-ban gym" id="input-id"/><br />
-            <input type="password" class="javaclass-ban football" id="input-pw"/><br>
-            <input type="date" value="2026-01-03"><br>
-            <input type="time" name="" id="" value="13:13"><br>
-            <input type="datetime-local" name="" id=""><br>
+      <legend>제출양식</legend>
+      <form action="ex02-01a0.html">
+        <label for="input-id">아이디:</label>
+        <input
+          type="text"
+          name=""
+          class="javaclass-ban gym"
+          id="input-id"
+          placeholder="아이디를 입력하세요"
+          value="bigdata"
+          required
+        /><br />
+        <label for="input-pw">패스워드:</label>
+        <input
+          type="password"
+          class="javaclass-ban football"
+          id="input-pw"
+          placeholder="비번을 입력하세요"
+          required
+        /><br />
+        <label for="jumin">생년월일</label>
+        <input type="text" id="jumin" /><br />
+        <label for="input-date">날짜:</label>
+        <input
+          type="date"
+          value="2026-01-03"
+          class="javaclass-ban date"
+          id="input-date"
+        /><br />
+        <label for="input-time">시간:</label>
+        <input
+          type="time"
+          name=""
+          id="input-time"
+          value="13:13"
+          class="javaclass-ban time"
+        /><br />
+        <label for="input-birth">출생일:</label>
+        <input
+          type="datetime-local"
+          name=""
+          id="input-birth"
+          class="javaclass-ban datetime-local"
+        /><br />
+        <input type="file" name="" id="upload" />
+        (숨김): <input type="hidden" name="외모" value="귀여움" id="" />
 
-
-            <hr>
-            <input type="submit" />
-            <input type="reset">
-        </form>
+        <hr />
+        <input type="submit" value="전송" />
+        <input type="reset" value="초기화" />
+      </form>
     </fieldset>
-</body>
-
+  </body>
 </html>
