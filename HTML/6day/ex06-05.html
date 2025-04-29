@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --myred1: rgb(219, 9, 9);
+        --myred2: rgb(219, 71, 71);
+        --myred3: rgb(240, 190, 190);
+
+        --myblue1: rgb(20, 20, 206);
+        --myblue2: rgb(83, 83, 173);
+        --myblue3: rgb(208, 208, 236);
+
+        --mygreen1: rgb(38, 224, 38);
+        --mygreen2: rgb(36, 97, 36);
+        --mygreen3: rgb(194, 219, 194);
+
+        --mypink1: rgb(192, 10, 192);
+        --mypink2: rgb(219, 95, 219);
+        --mypink3: rgb(240, 220, 240);
+      }
+      header,
+      footer {
+        width: 300px;
+        height: 40px;
+        background-color: var(--myblue3);
+        border: 5px solid var(--myblue2);
+        box-sizing: border-box;
+      }
+      nav {
+        width: 50px;
+        height: 250px;
+        background-color: var(--mygreen3);
+        border: 5px solid var(--mygreen2);
+        box-sizing: border-box;
+        float: left;
+      }
+      main {
+        width: 250px;
+        box-sizing: border-box;
+        margin-left: 50px;
+      }
+      article {
+        height: 50px;
+        box-sizing: border-box;
+        background-color: var(--mypink3);
+        border: 5px solid var(--mypink2);
+      }
+      section {
+        height: 200px;
+        box-sizing: border-box;
+        background-color: var(--myred3);
+        border: 5px solid var(--myred2);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div.box>header{header}+div>nav{nav}+main>article{artcile}+section{section}^^footer{footer} -->
+    <div class="box">
+      <header>header</header>
+      <div>
+        <nav>nav</nav>
+        <main>
+          <article>artcile</article>
+          <section>section</section>
+        </main>
+      </div>
+      <footer>footer</footer>
+    </div>
+  </body>
+</html>
