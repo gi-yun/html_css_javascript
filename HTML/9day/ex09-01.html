@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>신호등</title>
+    <style>
+      body {
+        justify-content: center;
+        align-content: center;
+        display: flex;
+      }
+      fieldset {
+        border: solid;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: greenyellow;
+        margin: 1px;
+        border: solid;
+        font-size: 3rem;
+        color: white;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+      }
+      div:nth-of-type(2) {
+        background-color: yellow;
+      }
+      #container {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <div id="container">1</div>
+      <div>2</div>
+      <div>3</div>
+    </fieldset>
+  </body>
+</html>
