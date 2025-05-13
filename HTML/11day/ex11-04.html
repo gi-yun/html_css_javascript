@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      const b1 = !true; // false
+      const b2 = !false; // true
+      const b3 = 123 == "123";
+      const b4 = 123 === "123";
+      const b5 = "사랑" === "하마";
+      console.log(b1); // false
+      console.log(b2); // false
+      console.log(b3); // false
+      console.log(b4); // false
+      console.log(b5); // false
+      console.log("사".charCodeAt(), "하".charCodeAt()); // 1
+
+      const num1 = 123;
+      const num2 = 0;
+      const str1 = "안녕";
+      const str2 = "";
+      console.log(num1, num2); // false
+      console.log(Boolean(num1), Boolean(num2));
+      console.log(!!num1, !!num2); // false
+      console.log(str1, str2); // false
+      console.log(Boolean(str1), Boolean(str2));
+      console.log(!!str1, !!str2); // false
+    </script>
+  </head>
+  <body></body>
+</html>

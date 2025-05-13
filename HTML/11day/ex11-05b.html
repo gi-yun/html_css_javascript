@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      const pt = prompt("값을 입력하세요.");
+      console.log(typeof pt, pt);
+      result = pt;
+      console.log(typeof result, result); // 1000 * pt
+      document.write("<h1>결과 값은 " + result * 0.9 + " 입니다.</h1>");
+      document.write("<h1>결과 값은 " + result * 0.8 + " 입니다.</h1>");
+      document.write("<h1>결과 값은 " + result * 0.7 + " 입니다.</h1>");
+      document.write("<table>" + "<tr>" + "<th>결과 값</th>" + "</tr>");
+      document.write("<tr>" + "<td>" + result * 0.9 + "</td>" + "</tr>");
+      document.write("<tr>" + "<td>" + result * 0.8 + "</td>" + "</tr>");
+      document.write("<tr>" + "<td>" + result * 0.7 + "</td>" + "</tr>");
+      document.write("</table>");
+    </script>
+  </head>
+  <body></body>
+</html>
