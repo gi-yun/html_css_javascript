@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        display: flex;
+        justify-content: center;
+      }
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>자리 배치도</h1>
+    <script>
+      const num = prompt("가로줄의 수를 입력하세요.");
+      const total = prompt("총 좌석 수를 입력하세요.");
+      let list = "";
+
+      list = "<table border='1'>";
+
+      for (let i = 1; i <= total; i++) {
+        if ((i - 1) % num === 0) {
+          list += "<tr>";
+        }
+        list += `<td>좌석${i}</td>`;
+        if (i % num === 0 || i === total) {
+          list += "</tr>";
+        }
+      }
+
+      list += "</table>";
+
+      document.body.innerHTML += list;
+    </script>
+  </body>
+</html>

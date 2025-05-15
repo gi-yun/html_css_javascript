@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let list = "";
+      list += "<table border='1'>";
+      for (let i = 0; i < 10; i++) {
+        console.log(i);
+        list += "<tr>";
+
+        list += `<th>${i}단</th>`;
+        list += "</tr>";
+        for (let j = 1; j < 9; j++) {
+          console.log(j);
+          list += "<tr>";
+          list += `<td>${i}x${j} = ${i * j}입니다.</td>`;
+          list += "</tr>";
+        }
+      }
+      document.body.innerHTML += list;
+      list += "</table>";
+    </script>
+  </body>
+</html>

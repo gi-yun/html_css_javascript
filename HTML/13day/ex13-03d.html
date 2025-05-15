@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예쁜 구구단</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        margin: 20px auto;
+        background-color: #f9f9f9;
+      }
+      th,
+      td {
+        border: 1px solid #999;
+        padding: 10px;
+        text-align: center;
+      }
+      th {
+        background-color: #dbe9f4;
+      }
+      tr:nth-child(even) {
+        background-color: #f0f8ff;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let list = "<table>";
+
+      // 첫 줄: 헤더
+      list += "<tr>";
+      for (let i = 2; i <= 9; i++) {
+        list += `<th>${i}단</th>`;
+      }
+      list += "</tr>";
+
+      // 구구단 내용: 1~9까지 곱하는 값
+      for (let j = 1; j <= 9; j++) {
+        list += "<tr>";
+        for (let i = 2; i <= 9; i++) {
+          list += `<td>${i} x ${j} = ${i * j}</td>`;
+        }
+        list += "</tr>";
+      }
+
+      list += "</table>";
+      document.body.innerHTML = list;
+    </script>
+  </body>
+</html>
