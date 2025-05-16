@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let list = "";
+      const arr = [
+        "강아지",
+        "고양이",
+        "코끼리",
+        "원숭이",
+        "호랑이",
+        "거북이",
+        "토끼",
+        "여우",
+        "늑대",
+      ];
+      arr["나는 누구"] = "여긴어디";
+      for (let i = 0; i < arr.length; i++) {
+        list += `${arr[i]} `;
+      }
+      list += `<br><h3>거꾸로</h3>`;
+      // 거꾸로
+      for (let i = arr.length; i > 0; i--) {
+        list += `${arr[i - 1]} `;
+      }
+
+      document.body.innerHTML += list;
+    </script>
+  </body>
+</html>

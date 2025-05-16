@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      mark {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const inp1 = prompt("제거하고 싶은 과일명을 입력하세요.");
+      const inp2 = prompt("추가하고 싶은 과일명을 입력하세요.");
+      const arr = [
+        "딸기",
+        "바나나",
+        "사과",
+        "수박",
+        "배",
+        "키위",
+        "복숭아",
+        "포도",
+      ];
+      // 배열
+      let ment = `${arr}<br>`;
+      //제거하기
+      arr.push(inp2);
+      console.log(inp1, inp2);
+      if (arr.indexOf(inp1) === -1 || inp1 === null) {
+        alert("제거하고 싶은 품목이 목록에 없습니다.");
+        ment += `제거 하고 싶은 품목이 없습니다. `;
+      } else {
+        ment += `<mark>${inp1}</mark> 제거했습니다. `;
+      }
+      arr.splice(arr.indexOf(inp1), 1);
+      // 추가 하기기
+      if (inp2 === "" || inp2 === null) {
+        alert("추가하고 싶은 품목이 목록에 없습니다.");
+        ment += `추가하고 싶은 품목이 없습니다`;
+      } else {
+        ment += `<mark>${inp2}</mark> 추가했습니다.`;
+      }
+      // inp1 "${arr} 중 제거하고 싶은 품목을 입력하세요."
+      // inp2 "${arr} 외에 추가하고 싶은 품목을 입력하세요."
+      document.body.innerHTML += ment;
+    </script>
+  </body>
+</html>

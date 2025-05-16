@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>삼항연산자</title>
+  </head>
+  <body>
+    <script>
+      const num = prompt("년도를 입력하세요요");
+      const year = num % 12;
+
+      switch (year) {
+        case 0:
+          document.body.innerHTML += "원숭이 띠입니다.";
+          break;
+        case 1:
+          document.body.innerHTML += "닭 띠 입니다.";
+          break;
+        case 2:
+          document.body.innerHTML += "개 띠 입니다.";
+          break;
+        case 3:
+          document.body.innerHTML += "돼지 띠 입니다.";
+          break;
+        case 4:
+          document.body.innerHTML += "쥐 띠 입니다.";
+          break;
+        case 5:
+          document.body.innerHTML += "소 띠 입니다.";
+          break;
+        case 6:
+          document.body.innerHTML += "호랑이 띠 입니다.";
+          break;
+        case 7:
+          document.body.innerHTML += "토끼 띠 입니다.";
+          break;
+        case 8:
+          document.body.innerHTML += "용 띠 입니다.";
+          break;
+        case 9:
+          document.body.innerHTML += "뱀 띠 입니다.";
+          break;
+        case 10:
+          document.body.innerHTML += "말 띠 입니다.";
+          break;
+        case 11:
+          document.body.innerHTML += "양 띠 입니다.";
+          break;
+        default:
+          alert("년도를 잘못 입력하셨습니다.");
+          document.body.innerHTML += "년도를 잘못 입력하셨습니다.";
+      }
+    </script>
+  </body>
+</html>
