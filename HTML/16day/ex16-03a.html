@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="in1">실시간 입력:</label>
+    <input
+      id="in1"
+      type="text"
+      oninput="showValue(this)"
+      placeholder="데이터를 넣어주세요"
+    />
+    <hr />
+    <label for="in2">버튼으로 값 얻기: </label>
+    <input id="in2" type="text" placeholder="데이터를 넣어주세요" />
+    <button onclick="getValue()">가져오기</button>
+    <hr />
+    <h2 id="disp">여기에 표현됩니다.</h2>
+    <script>
+      function showValue(element) {
+        console.log("입력되고 있는 값: ", element.value);
+      }
+      function getValue() {
+        const v = document.querySelector("#in2");
+        const disp = document.querySelector("#disp");
+        const v1 = document.querySelector("#disp2");
+        console.log("버튼을 누르셨네요!!!");
+        console.log(v.value);
+        disp.innerHTML = v.value;
+        v1.textContent = v.value; // 👉 여기에 화면에 표시
+      }
+      document.body.innerHTML += `<h2 id="disp2">여기에 표현됩니다.</h2>`;
+    </script>
+  </body>
+</html>

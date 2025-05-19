@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      h1 {
+        text-align: center;
+      }
       #box {
         width: 400px;
         height: 300px;
@@ -13,24 +16,26 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 20px 0 20px 25px;
+        padding: 10px 0 10px 30px;
         box-sizing: border-box;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
       }
       #box div {
         height: 30px;
         margin: 5px;
-        background-color: rgb(14, 121, 124);
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        background-color: rgba(9, 62, 87, 0.589);
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
       }
       table {
         width: 400px;
-        margin: 100px auto 30px;
+        margin: 10px auto 0;
       }
       th,
       tr,
       td {
-        background-color: rgb(30, 77, 88);
+        background-color: rgba(30, 77, 88, 0.616);
         color: white;
         box-shadow: 10px 10px 20px rgba(71, 71, 71, 0.493);
         padding: 10px;
@@ -40,8 +45,25 @@
       th {
         background-color: rgb(97, 8, 42);
       }
-      button {
-        margin: 0 auto;
+      tr:last-of-type td {
+        background-color: rgba(16, 37, 95, 0.603);
+      }
+      .btn {
+        width: 400px;
+        margin: 20px auto;
+        text-align: right;
+      }
+      .btn button {
+        padding: 10px;
+        margin: 0 20px;
+      }
+      span {
+        color: white;
+        font-weight: bold;
+        text-align: right;
+        display: block;
+        margin: 0 5px;
+        line-height: 1.7rem;
       }
     </style>
   </head>
@@ -49,7 +71,7 @@
     <script>
       let list = `
      `; // 최종출력
-      let epoch = 100000; // 횟수
+      let epoch = 10000; // 횟수
       let turn = 0; // 증가값
       const arr = [0, 0, 0, 0];
 
@@ -66,7 +88,12 @@
         }
         turn++;
       }
-      list += `    <table>`;
+      const arr0 = ((arr[0] / epoch) * 100).toFixed(1);
+      const arr1 = ((arr[1] / epoch) * 100).toFixed(1);
+      const arr2 = ((arr[2] / epoch) * 100).toFixed(1);
+      const arr3 = ((arr[3] / epoch) * 100).toFixed(1);
+
+      list += `    <h1>아이템 드롭확률</h1><table>`;
       list += `    <tr>`;
       list += `      <th>아이템</th>`;
       list += `      <th>기본확률</th>`;
@@ -77,25 +104,25 @@
       list += `      <td>유니크</td>`;
       list += `      <td>3%</td>`;
       list += `      <td>${arr[0]}</td>`;
-      list += `      <td>${((arr[0] / epoch) * 100).toFixed(1)}%</td>`;
+      list += `      <td>${arr0}%</td>`;
       list += `    </tr>`;
       list += `    <tr>`;
       list += `      <td>레어</td>`;
       list += `      <td>10%</td>`;
       list += `      <td>${arr[1]}</td>`;
-      list += `      <td>${((arr[1] / epoch) * 100).toFixed(1)}%</td>`;
+      list += `      <td>${arr1}%</td>`;
       list += `    </tr>`;
       list += `    <tr>`;
       list += `      <td>매직</td>`;
       list += `      <td>30%</td>`;
       list += `      <td>${arr[2]}</td>`;
-      list += `      <td>${((arr[2] / epoch) * 100).toFixed(1)}%</td>`;
+      list += `      <td>${arr2}%</td>`;
       list += `    </tr>`;
       list += `    <tr>`;
       list += `      <td>일반</td>`;
       list += `      <td>57%</td>`;
       list += `      <td>${arr[3]}</td>`;
-      list += `      <td>${((arr[3] / epoch) * 100).toFixed(1)}%</td>`;
+      list += `      <td>${arr3}%</td>`;
       list += `    </tr>`;
       list += `    <tr>`;
       list += `      <td>검증</td>`;
@@ -106,21 +133,13 @@
         100
       ).toFixed(1)}%</td>`;
       list += `</tr>`;
-      list += `</table> <button onclick="location.reload(true)">새로고침</button>
-      <button onclick="alert('주사위 확률조회입니다.')">팝업</button>`;
+      list += `</table> <div class="btn"><button onclick="location.reload(true)">새로고침</button>
+      <button onclick="alert('아이템 드롭 확률조회입니다.')">팝업</button></div>`;
       list += `<div id="box">`;
-      list += `<div style="width: ${((arr[0] / epoch) * 100).toFixed(
-        1
-      )}%"></div>`;
-      list += `<div style="width: ${((arr[1] / epoch) * 100).toFixed(
-        1
-      )}%"></div>`;
-      list += `<div style="width: ${((arr[2] / epoch) * 100).toFixed(
-        1
-      )}%"></div>`;
-      list += `<div style="width:${((arr[3] / epoch) * 100).toFixed(
-        1
-      )}%"></div>`;
+      list += `<div style="width: calc(${arr0}% * 1.5)"><span>${arr0}%</span></div>`;
+      list += `<div style="width: calc(${arr1}% * 1.5)"><span>${arr1}%</span></div>`;
+      list += `<div style="width: calc(${arr2}% * 1.5)"><span>${arr2}%</span></div>`;
+      list += `<div style="width: calc(${arr3}% * 1.5)"><span>${arr3}%</span></div>`;
       list += `</div>`;
 
       document.body.innerHTML = list;
