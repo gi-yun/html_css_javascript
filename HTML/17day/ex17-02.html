@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .modal1 {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+      .modal.show {
+        display: flex;
+      }
+      .login {
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+        box-sizing: border-box;
+        padding: 50px 50px 80px;
+      }
+      h2 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+      }
+      input,
+      form > button {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.856);
+        box-sizing: border-box;
+        width: 100%;
+        height: 40px;
+      }
+      form > button {
+        background-color: rgb(31, 90, 138);
+        color: black;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div.modal>div.login>h2{로그인}+form>input+input+button+button -->
+    <div class="modal1">
+      <div class="login">
+        <h2>로그인</h2>
+        <form action="#">
+          <input type="text" />
+          <input type="text" />
+          <button type="submit" id="disp">로그인</button>
+          <button type="reset" id="cancelBtn">취소</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal2">
+      <p>이 내용은 영국으로 부터 시작되어...</p>
+    </div>
+
+    <h1>간단한 내용들</h1>
+    <button id="login-Btn" onclick="login()">로그인</button>
+    <button id="alert-btn" onclick="alert1()">알림</button>
+    <h3>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, omnis,
+      quaerat non eaque amet, fuga consequatur quibusdam quis corrupti sequi
+      exercitationem unde id deserunt repellendus nobis sint aliquid qui nemo
+      minus ratione a. Ex voluptate officia corrupti. Ut repudiandae voluptates
+      nemo autem voluptatum, inventore quo, voluptate minima ex sed eveniet
+      dignissimos voluptas placeat. Eum numquam velit harum, exercitationem
+      voluptatem sapiente! Rem a itaque quos harum repudiandae, sapiente nisi
+      numquam accusantium veritatis ipsa ipsum ad nobis quaerat facere quas eius
+      dignissimos doloribus. Esse dolorem quasi architecto, nesciunt placeat
+      reprehenderit aliquam vitae atque, itaque soluta rem ullam culpa? Adipisci
+      harum cumque ex.
+    </h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maxime
+      soluta, harum sit temporibus numquam blanditiis est nesciunt ducimus
+      voluptatibus! Eius voluptatum tempore commodi amet soluta maxime iusto
+      esse laudantium voluptate alias cumque optio voluptas cum quae eveniet
+      tempora reprehenderit, exercitationem quo sapiente itaque et. Praesentium
+      veritatis cumque voluptatem iste.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maxime
+      soluta, harum sit temporibus numquam blanditiis est nesciunt ducimus
+      voluptatibus! Eius voluptatum tempore commodi amet soluta maxime iusto
+      esse laudantium voluptate alias cumque optio voluptas cum quae eveniet
+      tempora reprehenderit, exercitationem quo sapiente itaque et. Praesentium
+      veritatis cumque voluptatem iste.
+    </p>
+
+    <script>
+      const openBtn = document.querySelector("#login-Btn"); //로그인
+      const modal1 = document.querySelector(".modal1"); // 모달
+      const alertBtn = document.querySelector("#alert-btn");
+
+      const login = () => {
+        modal1.classList.add("show");
+      };
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+          modal1.classList.remove("show");
+        }
+      });
+      const cancelBtn = document.querySelector("#cancelBtn");
+      cancelBtn.addEventListener("click", () => {
+        modal1.classList.remove("show");
+      });
+      const alert1 = () => {};
+    </script>
+  </body>
+</html>

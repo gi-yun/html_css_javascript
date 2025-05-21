@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: rgba(0, 0, 0, 0.322);
+        height: 100vh;
+      }
+      .container {
+        position: relative;
+        top: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        height: 50vh;
+        border-radius: 20px;
+        width: 400px;
+        gap: 20px;
+        background-color: white;
+      }
+      .container div {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mb-3">
+        <input
+          type="number"
+          class="form-control"
+          id="floatingInput"
+          min="0"
+          max="100"
+          placeholder="데이터 값 입력"
+        />
+        <label for="floatingInput" class="form-label"></label>
+      </div>
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Basic mixed styles example"
+      >
+        <!-- <button type="button" class="btn btn-danger">Left</button> -->
+        <button type="button" class="btn btn-warning" onclick="fninp()">
+          전송
+        </button>
+        <button type="button" class="btn btn-success" onclick="fnRst()">
+          취소
+        </button>
+      </div>
+      <div
+        class="progress"
+        role="progressbar"
+        aria-label="Info example"
+        aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <div id="prog" class="progress-bar text-bg-info" style="width: 50%">
+          50%
+        </div>
+      </div>
+      <h2 id="disp">입력값 없음</h2>
+    </div>
+    <h3>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nobis,
+      modi labore obcaecati pariatur deleniti vero enim excepturi accusamus ipsa
+      iure, dolore cumque, exercitationem consequatur ab quia dolorem ea odio.
+    </h3>
+
+    <script>
+      const inp = document.querySelector("#floatingInput");
+      const disp = document.querySelector("#disp");
+      const prog = document.querySelector("#prog");
+      const fninp = () => {
+        disp.textContent = inp.value;
+        prog.textContent = `${inp.value}%`;
+        prog.style.width = `${inp.value}%`;
+        fnLoad();
+      };
+      const fnRst = () => {
+        disp.textContent = "초기화됨";
+        prog.textContent = "0%";
+        prog.style.width = `6%`;
+        inp.value = "";
+        fnLoad();
+      };
+      const fnLoad = () => {
+        // 강조 효과 추가
+        prog.classList.remove("text-bg-info");
+        prog.classList.add(
+          "text-bg-warning",
+          "progress-bar-striped",
+          "progress-bar-animated"
+        );
+
+        // 1초 후 원래 스타일로 되돌림
+        setTimeout(() => {
+          prog.classList.remove(
+            "text-bg-warning",
+            "progress-bar-striped",
+            "progress-bar-animated"
+          );
+          prog.classList.add("text-bg-info");
+        }, 1000);
+      };
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
