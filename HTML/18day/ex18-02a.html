@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function lol(heroName, level, callback) {
+        document.body.innerHTML += "=====================<br>";
+        document.body.innerHTML += `${heroName}님이 ${level} 레벨이 되셨습니다.<br>`;
+        document.body.innerHTML += "=====================<br>";
+        if (level >= 6) {
+          document.body.innerHTML += `${heroName}님이 궁극기를 쏩니다. <br>`;
+          // call back 기술 쓰기
+          callback(level);
+        } else {
+          document.body.innerHTML += `${heroName}님이 평타를 사용합니다. <br>`;
+        }
+      }
+      function fire(ff) {
+        for (let i = 1; i <= ff; i++) {
+          document.body.innerHTML += `${ff}레벨에 맞게 ${i}번 메테오를 던집니다.<br>`;
+        }
+      }
+      function ice(ii) {
+        for (let i = 1; i <= ff; i++) {
+          document.body.innerHTML += `${ii}레벨에 맞게 ${i}번 얼음조각을 던집니다.<br>`;
+        }
+      }
+      function slow(tt) {
+        for (let i = 1; i <= tt; i++) {
+          document.body.innerHTML += `${tt}레벨에 맞게 ${i}번 느려짐 디버프가 중첩됩니다.<br>`;
+        }
+      }
+      lol("슈퍼맨", 7, slow);
+    </script>
+  </body>
+</html>
