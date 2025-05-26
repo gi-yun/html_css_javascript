@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PacMan & Stars</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      img {
+        position: absolute;
+        user-select: none;
+        width: 100px;
+        height: 100px;
+      }
+
+      .star {
+        position: absolute;
+        font-size: 2rem;
+        user-select: none;
+        line-height: 1;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      let score = 0;
+      let pac; // 전역에서 쓸 수 있도록
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const scoreBoard = document.getElementById("scoreBoard");
+        // ⭐ 10개 생성
+        for (let i = 0; i < 10; i++) {
+          createRandomStar();
+        }
+        setInterval(createRandomStar, 1000); // 1초마다 생성
+
+        // 🟡 PacMan 이미지 생성
+        pac = document.createElement("img"); // 할당만 여기서
+        pac.alt = "pacman";
+        pac.src = "../../image/pac1.png"; // 초기 이미지
+        document.body.appendChild(pac);
+
+        let status = true; // 입 벌림 여부
+        setInterval(() => {
+          pac.src = status ? "../../image/pac1.png" : "../../image/pac2.png";
+          status = !status;
+        }, 200);
+
+        // 초기 위치 및 이동
+        const step = 40;
+        let x = Math.floor(window.innerWidth / 2 / step);
+        let y = Math.floor(window.innerHeight / 2 / step);
+
+        const move = () => {
+          pac.style.left = `${x * step}px`;
+          pac.style.top = `${y * step}px`;
+        };
+
+        window.addEventListener("keydown", (event) => {
+          if (event.key === "ArrowLeft") {
+            x -= 1;
+            pac.style.transform = "scaleX(-1)";
+          } else if (event.key === "ArrowRight") {
+            x += 1;
+            pac.style.transform = "scaleX(1)";
+          } else if (event.key === "ArrowUp") {
+            y -= 1;
+            pac.style.transform = "rotate(-90deg)";
+          } else if (event.key === "ArrowDown") {
+            y += 1;
+            pac.style.transform = "rotate(90deg)";
+          }
+          move();
+          checkCollision(); // ← 이동 후 충돌 체크
+        });
+
+        // ⭐ 생성 함수
+        function createRandomStar() {
+          const star = document.createElement("p");
+          star.innerHTML = "⭐";
+          star.classList.add("star");
+
+          const maxX = window.innerWidth - 40;
+          const maxY = window.innerHeight - 40;
+          const randX = Math.floor(Math.random() * maxX);
+          const randY = Math.floor(Math.random() * maxY);
+
+          star.style.left = `${randX}px`;
+          star.style.top = `${randY}px`;
+
+          document.body.appendChild(star);
+        }
+      });
+      function checkCollision() {
+        const pacRect = pac.getBoundingClientRect();
+        const stars = document.querySelectorAll(".star");
+
+        stars.forEach((star) => {
+          const starRect = star.getBoundingClientRect();
+
+          const isColliding =
+            pacRect.left < starRect.right &&
+            pacRect.right > starRect.left &&
+            pacRect.top < starRect.bottom &&
+            pacRect.bottom > starRect.top;
+
+          if (isColliding) {
+            console.log("⭐️ 먹음!");
+            star.remove();
+            score++;
+            scoreBoard.innerText = `Score: ${score}`;
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div
+      id="scoreBoard"
+      style="
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        font-size: 1.5rem;
+        background: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #aaa;
+      "
+    >
+      Score: 0
+    </div>
+  </body>
+</html>
