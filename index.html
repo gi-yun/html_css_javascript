@@ -1,86 +1,367 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>김기윤 포트폴리오</title>
     <style>
       body {
-        background-image: url("image/siba.jpg");
-        background-size: cover; /* 화면 가득 채움 */
-        background-repeat: no-repeat; /* 반복 안 함 */
-        background-position: center; /* 가운데 정렬 */
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background: #fff;
+        color: #222;
+        line-height: 1.6;
+      }
+      header {
+        background: #2c3e50;
+        color: white;
+        padding: 3rem 2rem;
+        text-align: center;
+      }
+      section {
+        padding: 2rem;
+        max-width: 1000px;
+        margin: auto;
+      }
+      h2 {
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      /* ABOUT ME */
+      .about-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1.5rem;
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .about-item {
+        width: 200px;
+        text-align: center;
+        background: #f5f5f5;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+      .about-item span {
+        display: block;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 0.3rem;
+      }
+      .about-item p {
+        margin: 0.3rem 0;
+        font-size: 0.95rem;
+        color: #555;
+      }
+
+      /* Skills */
+      .skills span {
+        display: inline-block;
+        background: #e1e1e1;
+        padding: 0.4rem 0.8rem;
+        margin: 0.2rem;
+        border-radius: 5px;
+      }
+
+      /* Project */
+      .project {
+        background: #f9f9f9;
+        padding: 1rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+      }
+
+      /* License & Career */
+      .license-container,
+      .career-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 1.5rem;
+      }
+      .license-card,
+      .career-card {
+        width: 260px;
+        padding: 1rem;
+        border-radius: 10px;
+        background: #f2f2f2;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      .license-card strong,
+      .career-card strong {
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+      .license-card small,
+      .career-card small {
+        color: #666;
+      }
+      .skill-category {
+        margin-bottom: 3rem;
+      }
+      .skill-category h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+      .skill-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .skill-item {
+        width: 100px;
+        text-align: center;
+        background: white;
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+      .skill-item img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }
+      .skill-item span {
+        display: block;
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+        color: #333;
       }
     </style>
   </head>
   <body>
-    <h1>HTML 실습</h1>
-    <a href="#1day">1일차 이동</a>| <a href="#2day">2일차 이동</a>|
-    <a href="#3day">3일차 이동</a>| <a href="#4day">4일차 이동</a>|
-    <a href="#5day">5일차 이동</a>|
-    <h3 id="1day">1일차(HTML시작)</h3>
-    <a href="HTML/1day/ex01-01_양식,h태그.html">실습 1</a><br />
-    <a href="HTML/1day/ex01-02.a링크.html">실습 2</a><br />
-    <a href="HTML/1day/ex01-03.html">실습 3</a><br />
-    <a href="HTML/1day/ex01-04.html">실습 4</a><br />
-    <a href="HTML/1day/ex01-05.html">실습 5</a><br />
-    <a href="HTML/1day/ex01-06.html">실습 6</a><br />
-    <a href="HTML/1day/ex01-07.html">실습 7</a><br />
-    <a href="HTML/1day/ex01-08.html">실습 8</a><br />
-    <a href="HTML/1day/ex01-09.html">실습 9</a><br />
-    <a href="HTML/1day/ex01-과제.html">과제</a>
+    <header>
+      <h1>김기윤</h1>
+      <p>성장하는 개발자, 기술로 사람을 연결하는 것에 흥미를 느낍니다.</p>
+      <p>
+        🔗
+        <a href="https://github.com/gi-yun" style="color: lightblue">GitHub</a>
+      </p>
+    </header>
 
-    <h3 id="2day">2일차</h3>
-    <a href="HTML/2day/ex02-01.html">실습1</a><br />
-    <a href="HTML/2day/ex02-01a1.html">p86예제</a><br />
-    <a href="HTML/2day/ex02-01a2.html">p87예제</a><br />
-    <a href="HTML/2day/ex02-02.html">실습2s</a><br />
-    <a href="HTML/2day/ex02-03.html">실습3</a><br />
-    <a href="HTML/2day/ex02-04.html">실습4</a><br />
-    <a href="HTML/2day/ex02-04a1.html">실습4-1</a><br />
-    <a href="HTML/2day/ex02-05.html">실습5</a><br />
-    <a href="HTML/2day/ex02-06.html">실습6</a><br />
-    <a href="HTML/2day/ex02-07.html">실습7</a><br />
-    <a href="HTML/2day/ex02-08.html">실습8</a><br />
-    <a href="HTML/2day/ex02-09.html">실습9</a><br />
-    <a href="HTML/2day/ex02-과제1.html">과제1</a><br />
-    <a href="HTML/2day/ex02-과제2.html">과제2</a><br />
+    <!-- ABOUT ME -->
+    <section id="about">
+      <h2 style="text-align: center">
+        🔗 <span style="font-weight: 900">ABOUT ME</span>
+      </h2>
+      <hr style="width: 100px; border: 1.5px solid #000; margin: 0 auto 2rem" />
+      <div class="about-container">
+        <div class="about-item">
+          <span>👤 이름</span>
+          <p>김기윤</p>
+        </div>
+        <div class="about-item">
+          <span>📆 생년월일</span>
+          <p>2000.04.03</p>
+        </div>
+        <div class="about-item">
+          <span>📍 위치</span>
+          <p>부산광역시 동래구</p>
+        </div>
+        <div class="about-item">
+          <span>📞 연락처</span>
+          <p>010-9274-7820</p>
+        </div>
+        <div class="about-item">
+          <span>✉️ 이메일</span>
+          <p>kbb9554@gmail.com</p>
+        </div>
+        <div class="about-item">
+          <span>🎓 학력</span>
+          <p>경남정보대</p>
+          <p>전문학사 (2021.02)</p>
+          <p>공학사(2023.02)</p>
+        </div>
+      </div>
+    </section>
 
-    <h3 id="3day">3일차</h3>
-    <a href="HTML/3day/ex03-01.html">실습1</a><br />
-    <a href="HTML/3day/ex03-01a.html">실습1_1</a><br />
-    <a href="HTML/3day/ex03-02.html">실습2</a><br />
-    <a href="HTML/3day/ex03-03.html">실습3</a><br />
-    <a href="HTML/3day/ex03-04.html">실습4</a><br />
-    <a href="HTML/3day/ex03-과제.html">과제</a><br />
+    <!-- SKILLS -->
+    <section>
+      <h2>🛠️ 기술 스택</h2>
 
-    <h3 id="4day">4일차(CSS 시작)</h3>
-    <a href="HTML/4day/ex04-01.html">실습1</a><br />
-    <a href="HTML/4day/ex04-02.html">실습2</a><br />
-    <a href="HTML/4day/ex04-03.html">실습3</a><br />
-    <a href="HTML/4day/ex04-04.html">실습4</a><br />
-    <a href="HTML/4day/ex04-05.html">실습5</a><br />
-    <a href="HTML/4day/ex04-06.html">실습6</a><br />
-    <a href="HTML/4day/ex04-06c.html">실습6-1</a><br />
-    <a href="HTML/4day/ex04-07.html">실습7</a><br />
-    <a href="HTML/4day/ex04-08.html">실습8</a><br />
-    <a href="HTML/4day/ex04-09.html">실습9</a><br />
-    <a href="HTML/4day/ex04-10.html">실습10</a><br />
-    <a href="HTML/4day/ex04-11.html">실습11</a><br />
-    <a href="HTML/4day/ex04-12.html">실습12</a><br />
+      <!-- Language -->
+      <div class="skill-category">
+        <h3>Language</h3>
+        <div class="skill-grid">
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              alt="Python"
+            />
+            <span>Python</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="SQL"
+            />
+            <span>SQL</span>
+          </div>
+        </div>
+      </div>
 
-    <h3 id="5day">5일차</h3>
-    <a href="HTML/5day/ex05-01.html">실습1</a><br />
-    <a href="HTML/5day/ex05-01.html">실습1</a><br />
-    <a href="HTML/5day/ex05-02.html">실습2</a><br />
-    <a href="HTML/5day/ex05-03.html">실습3</a><br />
-    <a href="HTML/5day/ex05-04.html">실습4</a><br />
-    <a href="HTML/5day/ex05-05.html">실습5</a><br />
-    <a href="HTML/5day/ex05-06.html">실습6</a><br />
-    <a href="HTML/5day/ex05-07.html">실습7</a><br />
-    <a href="HTML/5day/ex05-08.html">실습8</a><br />
-    <a href="HTML/5day/ex05-09.html">실습9</a><br />
-    <a href="HTML/5day/ex05-10.html">실습10</a><br />
-    <a href="HTML/5day/ex05-과제.html">과제</a><br />
+      <!-- Frontend -->
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skill-grid">
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML5"
+            />
+            <span>HTML5</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS3"
+            />
+            <span>CSS3</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              alt="Bootstrap"
+            />
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
+            <span>DOM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-category">
+        <h3>Backend / DB</h3>
+        <div class="skill-grid">
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
+              alt="Oracle"
+            />
+            <span>Oracle</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              alt="MySQL"
+            />
+            <span>MySQL</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring Boot"
+            />
+            <span>Spring Boot</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevOps / Tools -->
+      <div class="skill-category">
+        <h3>DevOps / Tools</h3>
+        <div class="skill-grid">
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+              alt="Docker"
+            />
+            <span>Docker</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="Git"
+            />
+            <span>Git</span>
+          </div>
+          <div class="skill-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              alt="VSCode"
+            />
+            <span>VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section>
+      <h2>📂 프로젝트</h2>
+      <div class="project">
+        <h3>Telegram 챗봇 (식단 알리미)</h3>
+        <p>
+          Python, Selenium, BeautifulSoup을 사용하여 부경대학교 한미락 식단을
+          자동 크롤링 후 텔레그램으로 전송하는 챗봇 개발.
+        </p>
+        <p>
+          🔗
+          <a href="https://github.com/gi-yun/Telegram_chatbot" target="_blank"
+            >GitHub 링크</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- LICENSE -->
+    <section>
+      <h2>📄 자격증</h2>
+      <div class="license-container">
+        <div class="license-card">
+          <strong>전기기능사</strong>
+          <p>한국산업인력공단<br /><small>2018.07</small></p>
+        </div>
+        <div class="license-card">
+          <strong>전자계산기기능사</strong>
+          <p>한국산업인력공단<br /><small>2017.12</small></p>
+        </div>
+        <div class="license-card">
+          <strong>2종보통운전면허</strong>
+          <p>경찰청<br /><small>2023.08</small></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER -->
+    <section>
+      <h2>📘 교육 이수</h2>
+      <div class="career-container">
+        <div class="career-card">
+          <strong>AI 플랫폼 활용 리테일 서비스 개발</strong>
+          <p>신세계아이앤씨<br /><small>2024.03.04 ~ 2024.08.30</small></p>
+        </div>
+        <div class="career-card">
+          <strong>Docker & AWS 기반 웹/앱 개발</strong>
+          <p>더조은직업전문학교<br /><small>2023.07.17 ~ 2023.12.28</small></p>
+        </div>
+        <div class="career-card">
+          <strong>파이썬 업무 자동화</strong>
+          <p>더조은직업전문학교<br /><small>2023.08.07 ~ 2023.08.31</small></p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

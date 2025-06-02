@@ -13,7 +13,7 @@
       }
 
       .box {
-        width: 500px;
+        width: 520px;
         height: 600px;
         display: flex;
         flex-direction: column;
@@ -83,12 +83,13 @@
       }
 
       .bubble {
-        max-width: 300px;
+        max-width: 220px;
         position: relative;
         background-color: #e0dfdf;
         padding: 0.7rem 2rem;
         border-radius: 20px;
         word-break: break-word;
+        white-space: pre-line;
       }
 
       .name {
@@ -188,9 +189,41 @@
       </div>
       <!-- div.chat-input>textarea+button#send-btn -->
       <div class="chat-input">
-        <textarea name="" id="" placeholder="메세지를 입력하세요."></textarea>
+        <textarea
+          name=""
+          id="text-area"
+          placeholder="메세지를 입력하세요."
+        ></textarea>
         <button id="send-btn">전송</button>
       </div>
     </div>
+
+    <script>
+      const sendBtn = document.getElementById("send-btn");
+      const chatContainer = document.querySelector(".chat-container");
+      const textarea = document.querySelector("#text-area");
+
+      const sendMessage = () => {
+        const userMessage = textarea.value.trim(); // 빈칸 없애기
+        if (userMessage) {
+          const userDiv = document.createElement("div");
+          userDiv.className = "message user";
+          userDiv.innerHTML = `<div><div class="name">나</div><div class="bubble">${userMessage}</div></div></div>`;
+          chatContainer.appendChild(userDiv);
+          textarea.value = ""; // 전송하고 입력창 비우기
+          chatContainer.scrollTop = chatContainer.scrollHeight; // 스크롤을 맨아래로 이동
+        }
+      };
+      sendBtn.addEventListener("click", sendMessage);
+      textarea.addEventListener("keydown", (event) => {
+        console.log(event);
+        if (event.key === "Enter" && !event.shiftKey) {
+          ㄴ;
+          // if (event.key === "Enter" && event.key !== "Shift") {
+          event.preventDefault(); // 한칸내리는 기능 방지
+          sendMessage(); // 메세지 전송
+        }
+      });
+    </script>
   </body>
 </html>
