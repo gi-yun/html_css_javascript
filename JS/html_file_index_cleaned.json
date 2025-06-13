@@ -1,0 +1,1486 @@
+[
+  {
+    "day": "01day",
+    "title": "01일차",
+    "files": [
+      {
+        "name": "ex01-01_양식,h태그.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-01_양식,h태그.html"
+      },
+      {
+        "name": "ex01-02.a링크.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-02.a링크.html"
+      },
+      {
+        "name": "ex01-03.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-03.html"
+      },
+      {
+        "name": "ex01-04.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-04.html"
+      },
+      {
+        "name": "ex01-05.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-05.html"
+      },
+      {
+        "name": "ex01-06.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-06.html"
+      },
+      {
+        "name": "ex01-07.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-07.html"
+      },
+      {
+        "name": "ex01-08.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-08.html"
+      },
+      {
+        "name": "ex01-09.html",
+        "type": "실습",
+        "path": "./HTML/01day/ex01-09.html"
+      },
+      {
+        "name": "ex01-과제.html",
+        "type": "과제",
+        "path": "./HTML/01day/ex01-과제.html"
+      }
+    ]
+  },
+  {
+    "day": "02day",
+    "title": "02일차",
+    "files": [
+      {
+        "name": "ex02-01.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-01.html"
+      },
+      {
+        "name": "ex02-01a0.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-01a0.html"
+      },
+      {
+        "name": "ex02-01a1.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-01a1.html"
+      },
+      {
+        "name": "ex02-01a2.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-01a2.html"
+      },
+      {
+        "name": "ex02-02.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-02.html"
+      },
+      {
+        "name": "ex02-03.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-03.html"
+      },
+      {
+        "name": "ex02-04.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-04.html"
+      },
+      {
+        "name": "ex02-04a1.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-04a1.html"
+      },
+      {
+        "name": "ex02-05.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-05.html"
+      },
+      {
+        "name": "ex02-06.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-06.html"
+      },
+      {
+        "name": "ex02-07.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-07.html"
+      },
+      {
+        "name": "ex02-08.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-08.html"
+      },
+      {
+        "name": "ex02-09.html",
+        "type": "실습",
+        "path": "./HTML/02day/ex02-09.html"
+      },
+      {
+        "name": "ex02-과제1.html",
+        "type": "과제",
+        "path": "./HTML/02day/ex02-과제1.html"
+      },
+      {
+        "name": "ex02-과제2.html",
+        "type": "과제",
+        "path": "./HTML/02day/ex02-과제2.html"
+      }
+    ]
+  },
+  {
+    "day": "03day",
+    "title": "03일차",
+    "files": [
+      {
+        "name": "ex03-01.html",
+        "type": "실습",
+        "path": "./HTML/03day/ex03-01.html"
+      },
+      {
+        "name": "ex03-01a.html",
+        "type": "실습",
+        "path": "./HTML/03day/ex03-01a.html"
+      },
+      {
+        "name": "ex03-02.html",
+        "type": "실습",
+        "path": "./HTML/03day/ex03-02.html"
+      },
+      {
+        "name": "ex03-03.html",
+        "type": "실습",
+        "path": "./HTML/03day/ex03-03.html"
+      },
+      {
+        "name": "ex03-04.html",
+        "type": "실습",
+        "path": "./HTML/03day/ex03-04.html"
+      },
+      {
+        "name": "ex03-과제.html",
+        "type": "과제",
+        "path": "./HTML/03day/ex03-과제.html"
+      }
+    ]
+  },
+  {
+    "day": "04day",
+    "title": "04일차",
+    "files": [
+      {
+        "name": "ex04-01.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-01.html"
+      },
+      {
+        "name": "ex04-02.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-02.html"
+      },
+      {
+        "name": "ex04-03.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-03.html"
+      },
+      {
+        "name": "ex04-04.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-04.html"
+      },
+      {
+        "name": "ex04-05.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-05.html"
+      },
+      {
+        "name": "ex04-06.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-06.html"
+      },
+      {
+        "name": "ex04-06c.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-06c.html"
+      },
+      {
+        "name": "ex04-07.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-07.html"
+      },
+      {
+        "name": "ex04-08.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-08.html"
+      },
+      {
+        "name": "ex04-09.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-09.html"
+      },
+      {
+        "name": "ex04-10.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-10.html"
+      },
+      {
+        "name": "ex04-11.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-11.html"
+      },
+      {
+        "name": "ex04-12.html",
+        "type": "실습",
+        "path": "./HTML/04day/ex04-12.html"
+      }
+    ]
+  },
+  {
+    "day": "05day",
+    "title": "05일차",
+    "files": [
+      {
+        "name": "ex05-01.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-01.html"
+      },
+      {
+        "name": "ex05-02.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-02.html"
+      },
+      {
+        "name": "ex05-03.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-03.html"
+      },
+      {
+        "name": "ex05-04.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-04.html"
+      },
+      {
+        "name": "ex05-05.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-05.html"
+      },
+      {
+        "name": "ex05-06.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-06.html"
+      },
+      {
+        "name": "ex05-07.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-07.html"
+      },
+      {
+        "name": "ex05-08.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-08.html"
+      },
+      {
+        "name": "ex05-08a.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-08a.html"
+      },
+      {
+        "name": "ex05-09.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-09.html"
+      },
+      {
+        "name": "ex05-10.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-10.html"
+      },
+      {
+        "name": "ex05-11.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-11.html"
+      },
+      {
+        "name": "ex05-12.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-12.html"
+      },
+      {
+        "name": "ex05-13.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-13.html"
+      },
+      {
+        "name": "ex05-14.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-14.html"
+      },
+      {
+        "name": "ex05-15.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-15.html"
+      },
+      {
+        "name": "ex05-16.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-16.html"
+      },
+      {
+        "name": "ex05-17.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-17.html"
+      },
+      {
+        "name": "ex05-18.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-18.html"
+      },
+      {
+        "name": "ex05-19.html",
+        "type": "실습",
+        "path": "./HTML/05day/ex05-19.html"
+      },
+      {
+        "name": "ex05-과제.html",
+        "type": "과제",
+        "path": "./HTML/05day/ex05-과제.html"
+      }
+    ]
+  },
+  {
+    "day": "06day",
+    "title": "06일차",
+    "files": [
+      {
+        "name": "ex06-01.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-01.html"
+      },
+      {
+        "name": "ex06-02.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-02.html"
+      },
+      {
+        "name": "ex06-02a.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-02a.html"
+      },
+      {
+        "name": "ex06-02b.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-02b.html"
+      },
+      {
+        "name": "ex06-03.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-03.html"
+      },
+      {
+        "name": "ex06-04.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-04.html"
+      },
+      {
+        "name": "ex06-04a.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-04a.html"
+      },
+      {
+        "name": "ex06-05.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-05.html"
+      },
+      {
+        "name": "ex06-06.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-06.html"
+      },
+      {
+        "name": "ex06-07.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-07.html"
+      },
+      {
+        "name": "ex06-08.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-08.html"
+      },
+      {
+        "name": "ex06-09.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-09.html"
+      },
+      {
+        "name": "ex06-10.html",
+        "type": "실습",
+        "path": "./HTML/06day/ex06-10.html"
+      }
+    ]
+  },
+  {
+    "day": "07day",
+    "title": "07일차",
+    "files": [
+      {
+        "name": "ex07-01.html",
+        "type": "실습",
+        "path": "./HTML/07day/ex07-01.html"
+      },
+      {
+        "name": "ex07-01a.html",
+        "type": "실습",
+        "path": "./HTML/07day/ex07-01a.html"
+      },
+      {
+        "name": "ex07-02.html",
+        "type": "실습",
+        "path": "./HTML/07day/ex07-02.html"
+      },
+      {
+        "name": "ex07-03.html",
+        "type": "실습",
+        "path": "./HTML/07day/ex07-03.html"
+      },
+      {
+        "name": "ex07-04.html",
+        "type": "실습",
+        "path": "./HTML/07day/ex07-04.html"
+      },
+      {
+        "name": "ex07-05.html",
+        "type": "실습",
+        "path": "./HTML/07day/ex07-05.html"
+      },
+      {
+        "name": "ex07-예제.html",
+        "type": "실습",
+        "path": "./HTML/07day/ex07-예제.html"
+      }
+    ]
+  },
+  {
+    "day": "08day",
+    "title": "08일차",
+    "files": [
+      {
+        "name": "ex08-01.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-01.html"
+      },
+      {
+        "name": "ex08-02.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-02.html"
+      },
+      {
+        "name": "ex08-03.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-03.html"
+      },
+      {
+        "name": "ex08-03a.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-03a.html"
+      },
+      {
+        "name": "ex08-04.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-04.html"
+      },
+      {
+        "name": "ex08-05.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-05.html"
+      },
+      {
+        "name": "ex08-06.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-06.html"
+      },
+      {
+        "name": "ex08-07.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-07.html"
+      },
+      {
+        "name": "ex08-08.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-08.html"
+      },
+      {
+        "name": "ex08-08a.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-08a.html"
+      },
+      {
+        "name": "ex08-08b.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-08b.html"
+      },
+      {
+        "name": "ex08-09.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-09.html"
+      },
+      {
+        "name": "ex08-10.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-10.html"
+      },
+      {
+        "name": "ex08-11.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-11.html"
+      },
+      {
+        "name": "ex08-12.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-12.html"
+      },
+      {
+        "name": "ex08-13.html",
+        "type": "실습",
+        "path": "./HTML/08day/ex08-13.html"
+      }
+    ]
+  },
+  {
+    "day": "09day",
+    "title": "09일차",
+    "files": [
+      {
+        "name": "ex09-01.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-01.html"
+      },
+      {
+        "name": "ex09-01a.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-01a.html"
+      },
+      {
+        "name": "ex09-02.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-02.html"
+      },
+      {
+        "name": "ex09-03.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-03.html"
+      },
+      {
+        "name": "ex09-04.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-04.html"
+      },
+      {
+        "name": "ex09-04a.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-04a.html"
+      },
+      {
+        "name": "ex09-05.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-05.html"
+      },
+      {
+        "name": "ex09-06.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-06.html"
+      },
+      {
+        "name": "ex09-07.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-07.html"
+      },
+      {
+        "name": "ex09-08.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-08.html"
+      },
+      {
+        "name": "ex09-08a.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-08a.html"
+      },
+      {
+        "name": "ex09-09.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-09.html"
+      },
+      {
+        "name": "ex09-10.html",
+        "type": "실습",
+        "path": "./HTML/09day/ex09-10.html"
+      }
+    ]
+  },
+  {
+    "day": "10day",
+    "title": "10일차",
+    "files": [
+      {
+        "name": "ex10-01.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-01.html"
+      },
+      {
+        "name": "ex10-02.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-02.html"
+      },
+      {
+        "name": "ex10-03.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-03.html"
+      },
+      {
+        "name": "ex10-04.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-04.html"
+      },
+      {
+        "name": "ex10-05a.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-05a.html"
+      },
+      {
+        "name": "ex10-05b.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-05b.html"
+      },
+      {
+        "name": "ex10-05c.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-05c.html"
+      },
+      {
+        "name": "ex10-06.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-06.html"
+      },
+      {
+        "name": "ex10-06a.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-06a.html"
+      },
+      {
+        "name": "ex10-07.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-07.html"
+      },
+      {
+        "name": "ex10-08.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-08.html"
+      },
+      {
+        "name": "ex10-08a.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-08a.html"
+      },
+      {
+        "name": "ex10-09.html",
+        "type": "실습",
+        "path": "./HTML/10day/ex10-09.html"
+      }
+    ]
+  },
+  {
+    "day": "11day",
+    "title": "11일차",
+    "files": [
+      {
+        "name": "ex11-01.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-01.html"
+      },
+      {
+        "name": "ex11-02.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-02.html"
+      },
+      {
+        "name": "ex11-02a.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-02a.html"
+      },
+      {
+        "name": "ex11-03.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-03.html"
+      },
+      {
+        "name": "ex11-03a.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-03a.html"
+      },
+      {
+        "name": "ex11-04.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-04.html"
+      },
+      {
+        "name": "ex11-04a.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-04a.html"
+      },
+      {
+        "name": "ex11-05.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-05.html"
+      },
+      {
+        "name": "ex11-05a.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-05a.html"
+      },
+      {
+        "name": "ex11-05b.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-05b.html"
+      },
+      {
+        "name": "ex11-06.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-06.html"
+      },
+      {
+        "name": "ex11-06a.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-06a.html"
+      },
+      {
+        "name": "ex11-06b.html",
+        "type": "실습",
+        "path": "./HTML/11day/ex11-06b.html"
+      }
+    ]
+  },
+  {
+    "day": "12day",
+    "title": "12일차",
+    "files": [
+      {
+        "name": "ex12-01.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-01.html"
+      },
+      {
+        "name": "ex12-02.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-02.html"
+      },
+      {
+        "name": "ex12-02a.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-02a.html"
+      },
+      {
+        "name": "ex12-03.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-03.html"
+      },
+      {
+        "name": "ex12-03a.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-03a.html"
+      },
+      {
+        "name": "ex12-03b.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-03b.html"
+      },
+      {
+        "name": "ex12-04.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-04.html"
+      },
+      {
+        "name": "ex12-04a.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-04a.html"
+      },
+      {
+        "name": "ex12-05.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-05.html"
+      },
+      {
+        "name": "ex12-05a.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-05a.html"
+      },
+      {
+        "name": "ex12-06.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-06.html"
+      },
+      {
+        "name": "ex12-06a.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-06a.html"
+      },
+      {
+        "name": "ex12-06b-3-1-4.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-06b-3-1-4.html"
+      },
+      {
+        "name": "ex12-06b.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-06b.html"
+      },
+      {
+        "name": "ex12-test.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-test.html"
+      },
+      {
+        "name": "ex12-온도.html",
+        "type": "실습",
+        "path": "./HTML/12day/ex12-온도.html"
+      }
+    ]
+  },
+  {
+    "day": "13day",
+    "title": "13일차",
+    "files": [
+      {
+        "name": "ex13-01.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-01.html"
+      },
+      {
+        "name": "ex13-01a.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-01a.html"
+      },
+      {
+        "name": "ex13-01b.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-01b.html"
+      },
+      {
+        "name": "ex13-01c.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-01c.html"
+      },
+      {
+        "name": "ex13-02.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-02.html"
+      },
+      {
+        "name": "ex13-03.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-03.html"
+      },
+      {
+        "name": "ex13-03a.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-03a.html"
+      },
+      {
+        "name": "ex13-03b.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-03b.html"
+      },
+      {
+        "name": "ex13-03c.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-03c.html"
+      },
+      {
+        "name": "ex13-03d.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-03d.html"
+      },
+      {
+        "name": "ex13-04.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-04.html"
+      },
+      {
+        "name": "ex13-05.html",
+        "type": "실습",
+        "path": "./HTML/13day/ex13-05.html"
+      }
+    ]
+  },
+  {
+    "day": "14day",
+    "title": "14일차",
+    "files": [
+      {
+        "name": "ex14-01.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-01.html"
+      },
+      {
+        "name": "ex14-02.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-02.html"
+      },
+      {
+        "name": "ex14-02a.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-02a.html"
+      },
+      {
+        "name": "ex14-03.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-03.html"
+      },
+      {
+        "name": "ex14-03a.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-03a.html"
+      },
+      {
+        "name": "ex14-03c.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-03c.html"
+      },
+      {
+        "name": "ex14-04.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-04.html"
+      },
+      {
+        "name": "ex14-04a.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-04a.html"
+      },
+      {
+        "name": "ex14-04b.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-04b.html"
+      },
+      {
+        "name": "ex14-04c.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-04c.html"
+      },
+      {
+        "name": "ex14-04d.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-04d.html"
+      },
+      {
+        "name": "ex14-05.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-05.html"
+      },
+      {
+        "name": "ex14-06.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-06.html"
+      },
+      {
+        "name": "ex14-07.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-07.html"
+      },
+      {
+        "name": "ex14-08.html",
+        "type": "실습",
+        "path": "./HTML/14day/ex14-08.html"
+      }
+    ]
+  },
+  {
+    "day": "15day",
+    "title": "15일차",
+    "files": [
+      {
+        "name": "ex15-01.html",
+        "type": "실습",
+        "path": "./HTML/15day/ex15-01.html"
+      },
+      {
+        "name": "ex15-02.html",
+        "type": "실습",
+        "path": "./HTML/15day/ex15-02.html"
+      },
+      {
+        "name": "ex15-02a.html",
+        "type": "실습",
+        "path": "./HTML/15day/ex15-02a.html"
+      },
+      {
+        "name": "ex15-02a_chart.html",
+        "type": "실습",
+        "path": "./HTML/15day/ex15-02a_chart.html"
+      },
+      {
+        "name": "ex15-02b.html",
+        "type": "실습",
+        "path": "./HTML/15day/ex15-02b.html"
+      }
+    ]
+  },
+  {
+    "day": "16day",
+    "title": "16일차",
+    "files": [
+      {
+        "name": "ex16-01.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-01.html"
+      },
+      {
+        "name": "ex16-01a.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-01a.html"
+      },
+      {
+        "name": "ex16-01b.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-01b.html"
+      },
+      {
+        "name": "ex16-02.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-02.html"
+      },
+      {
+        "name": "ex16-02a.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-02a.html"
+      },
+      {
+        "name": "ex16-02b.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-02b.html"
+      },
+      {
+        "name": "ex16-02c.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-02c.html"
+      },
+      {
+        "name": "ex16-02d.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-02d.html"
+      },
+      {
+        "name": "ex16-02e.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-02e.html"
+      },
+      {
+        "name": "ex16-02f.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-02f.html"
+      },
+      {
+        "name": "ex16-03.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-03.html"
+      },
+      {
+        "name": "ex16-03a.html",
+        "type": "실습",
+        "path": "./HTML/16day/ex16-03a.html"
+      }
+    ]
+  },
+  {
+    "day": "17day",
+    "title": "17일차",
+    "files": [
+      {
+        "name": "ex17-01.html",
+        "type": "실습",
+        "path": "./HTML/17day/ex17-01.html"
+      },
+      {
+        "name": "ex17-02.html",
+        "type": "실습",
+        "path": "./HTML/17day/ex17-02.html"
+      },
+      {
+        "name": "ex17-03.html",
+        "type": "실습",
+        "path": "./HTML/17day/ex17-03.html"
+      },
+      {
+        "name": "ex17-03a.html",
+        "type": "실습",
+        "path": "./HTML/17day/ex17-03a.html"
+      }
+    ]
+  },
+  {
+    "day": "18day",
+    "title": "18일차",
+    "files": [
+      {
+        "name": "ex18-01.html",
+        "type": "실습",
+        "path": "./HTML/18day/ex18-01.html"
+      },
+      {
+        "name": "ex18-02.html",
+        "type": "실습",
+        "path": "./HTML/18day/ex18-02.html"
+      },
+      {
+        "name": "ex18-02a.html",
+        "type": "실습",
+        "path": "./HTML/18day/ex18-02a.html"
+      },
+      {
+        "name": "ex18-03.html",
+        "type": "실습",
+        "path": "./HTML/18day/ex18-03.html"
+      },
+      {
+        "name": "ex18-03a.html",
+        "type": "실습",
+        "path": "./HTML/18day/ex18-03a.html"
+      },
+      {
+        "name": "ex18-03b.html",
+        "type": "실습",
+        "path": "./HTML/18day/ex18-03b.html"
+      },
+      {
+        "name": "ex18-과제.html",
+        "type": "과제",
+        "path": "./HTML/18day/ex18-과제.html"
+      },
+      {
+        "name": "ex18-과제2.html",
+        "type": "과제",
+        "path": "./HTML/18day/ex18-과제2.html"
+      }
+    ]
+  },
+  {
+    "day": "19day",
+    "title": "19일차",
+    "files": [
+      {
+        "name": "ex19-01.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-01.html"
+      },
+      {
+        "name": "ex19-01a.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-01a.html"
+      },
+      {
+        "name": "ex19-01b.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-01b.html"
+      },
+      {
+        "name": "ex19-01c.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-01c.html"
+      },
+      {
+        "name": "ex19-01d.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-01d.html"
+      },
+      {
+        "name": "ex19-01e.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-01e.html"
+      },
+      {
+        "name": "ex19-01f.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-01f.html"
+      },
+      {
+        "name": "ex19-02.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-02.html"
+      },
+      {
+        "name": "ex19-02a.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-02a.html"
+      },
+      {
+        "name": "ex19-02b.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-02b.html"
+      },
+      {
+        "name": "ex19-02c.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-02c.html"
+      },
+      {
+        "name": "ex19-03.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-03.html"
+      },
+      {
+        "name": "ex19-03a.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-03a.html"
+      },
+      {
+        "name": "ex19-03b.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-03b.html"
+      },
+      {
+        "name": "ex19-04.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-04.html"
+      },
+      {
+        "name": "ex19-04a.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-04a.html"
+      },
+      {
+        "name": "ex19-04b.html",
+        "type": "실습",
+        "path": "./HTML/19day/ex19-04b.html"
+      },
+      {
+        "name": "html_css_javascript.code-workspace",
+        "type": "실습",
+        "path": "./HTML/19day/html_css_javascript.code-workspace"
+      }
+    ]
+  },
+  {
+    "day": "20day",
+    "title": "20일차",
+    "files": [
+      {
+        "name": "ex20-01.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-01.html"
+      },
+      {
+        "name": "ex20-01a.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-01a.html"
+      },
+      {
+        "name": "ex20-01b.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-01b.html"
+      },
+      {
+        "name": "ex20-01c-1.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-01c-1.html"
+      },
+      {
+        "name": "ex20-01c.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-01c.html"
+      },
+      {
+        "name": "ex20-01d.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-01d.html"
+      },
+      {
+        "name": "ex20-01e.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-01e.html"
+      },
+      {
+        "name": "ex20-02.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-02.html"
+      },
+      {
+        "name": "ex20-02a.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-02a.html"
+      },
+      {
+        "name": "ex20-02b.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-02b.html"
+      },
+      {
+        "name": "ex20-02c.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-02c.html"
+      },
+      {
+        "name": "ex20-02d.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-02d.html"
+      },
+      {
+        "name": "ex20-03.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-03.html"
+      },
+      {
+        "name": "ex20-03a.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-03a.html"
+      },
+      {
+        "name": "ex20-03b.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-03b.html"
+      },
+      {
+        "name": "ex20-03c.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-03c.html"
+      },
+      {
+        "name": "ex20-03d.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-03d.html"
+      },
+      {
+        "name": "ex20-04.html",
+        "type": "실습",
+        "path": "./HTML/20day/ex20-04.html"
+      },
+      {
+        "name": "ex20-과제.html",
+        "type": "과제",
+        "path": "./HTML/20day/ex20-과제.html"
+      }
+    ]
+  },
+  {
+    "day": "21day",
+    "title": "21일차",
+    "files": [
+      {
+        "name": "ex21-01.html",
+        "type": "실습",
+        "path": "./HTML/21day/ex21-01.html"
+      },
+      {
+        "name": "ex21-02.html",
+        "type": "실습",
+        "path": "./HTML/21day/ex21-02.html"
+      },
+      {
+        "name": "ex21-03.html",
+        "type": "실습",
+        "path": "./HTML/21day/ex21-03.html"
+      },
+      {
+        "name": "ex21-04.html",
+        "type": "실습",
+        "path": "./HTML/21day/ex21-04.html"
+      },
+      {
+        "name": "ex21-04a.html",
+        "type": "실습",
+        "path": "./HTML/21day/ex21-04a.html"
+      },
+      {
+        "name": "ex21-05.html",
+        "type": "실습",
+        "path": "./HTML/21day/ex21-05.html"
+      },
+      {
+        "name": "ex21-05a.html",
+        "type": "실습",
+        "path": "./HTML/21day/ex21-05a.html"
+      }
+    ]
+  },
+  {
+    "day": "22day",
+    "title": "22일차",
+    "files": [
+      {
+        "name": "ex22-01.html",
+        "type": "실습",
+        "path": "./HTML/22day/ex22-01.html"
+      },
+      {
+        "name": "ex22-01a.html",
+        "type": "실습",
+        "path": "./HTML/22day/ex22-01a.html"
+      },
+      {
+        "name": "ex22-01b.html",
+        "type": "실습",
+        "path": "./HTML/22day/ex22-01b.html"
+      },
+      {
+        "name": "ex22-02.html",
+        "type": "실습",
+        "path": "./HTML/22day/ex22-02.html"
+      },
+      {
+        "name": "ex22-03.html",
+        "type": "실습",
+        "path": "./HTML/22day/ex22-03.html"
+      },
+      {
+        "name": "ex22-03a.html",
+        "type": "실습",
+        "path": "./HTML/22day/ex22-03a.html"
+      }
+    ]
+  },
+  {
+    "day": "23day",
+    "title": "23일차",
+    "files": [
+      {
+        "name": "ex23-01.html",
+        "type": "실습",
+        "path": "./HTML/23day/ex23-01.html"
+      },
+      {
+        "name": "ex23-01a.html",
+        "type": "실습",
+        "path": "./HTML/23day/ex23-01a.html"
+      },
+      {
+        "name": "ex23-02.html",
+        "type": "실습",
+        "path": "./HTML/23day/ex23-02.html"
+      }
+    ]
+  },
+  {
+    "day": "24day",
+    "title": "24일차",
+    "files": [
+      {
+        "name": "ex24-01.html",
+        "type": "실습",
+        "path": "./HTML/24day/ex24-01.html"
+      },
+      {
+        "name": "ex24-01a.html",
+        "type": "실습",
+        "path": "./HTML/24day/ex24-01a.html"
+      },
+      {
+        "name": "ex24-02.html",
+        "type": "실습",
+        "path": "./HTML/24day/ex24-02.html"
+      }
+    ]
+  }
+]

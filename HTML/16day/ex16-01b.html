@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Document</title>
+<script>
       let dice = (i = 0);
       const diceCount = [0, 0, 0, 0, 0, 0];
       const gameEnd = 10 * 1000;
@@ -68,14 +69,13 @@
 
       console.log(perArr);
     </script>
-  </head>
-  <body>
-    <h1>주사위 만회 굴리는 중</h1>
-    <h2 id="disp">로딩중...</h2>
-    <h2 id="per">해석중...</h2>
-    <h3 id="verif">분석중...</h3>
-
-    <script>
+</head>
+<body><h3><a href="../../index.html">홈으로 돌아가기</a></h3>
+<h1>주사위 만회 굴리는 중</h1>
+<h2 id="disp">로딩중...</h2>
+<h2 id="per">해석중...</h2>
+<h3 id="verif">분석중...</h3>
+<script>
       const h2 = document.querySelector("#disp");
       setTimeout(() => {
         h2.textContent = `${diceCount}`;
@@ -91,5 +91,5 @@
         h3.textContent = `${sumDice}회 검증 완료`;
       }, 4000);
     </script>
-  </body>
+</body>
 </html>

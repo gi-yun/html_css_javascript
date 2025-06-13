@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>이미지 슬라이더</title>
-    <style>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>이미지 슬라이더</title>
+<style>
       #container {
         /* width: 100%; */
         max-width: 320px;
@@ -43,21 +44,21 @@
         cursor: not-allowed;
       }
     </style>
-  </head>
-  <body>
-    <div id="container">
-      <div class="contents">
-        <img src="https://placecats.com/330/230" alt="" />
-        <img src="https://placecats.com/350/210" alt="" />
-        <img src="https://placecats.com/360/220" alt="" />
-        <img src="https://placecats.com/370/210" alt="" />
-      </div>
-    </div>
-    <div class="controls">
-      <button id="btn-left" onclick="sLeft()">이전</button>
-      <button id="btn-right" onclick="sRight()">다음</button>
-    </div>
-    <script>
+</head>
+<body><h3><a href="../../index.html">홈으로 돌아가기</a></h3>
+<div id="container">
+<div class="contents">
+<img alt="" src="https://placecats.com/330/230"/>
+<img alt="" src="https://placecats.com/350/210"/>
+<img alt="" src="https://placecats.com/360/220"/>
+<img alt="" src="https://placecats.com/370/210"/>
+</div>
+</div>
+<div class="controls">
+<button id="btn-left" onclick="sLeft()">이전</button>
+<button id="btn-right" onclick="sRight()">다음</button>
+</div>
+<script>
       const img = document.querySelectorAll("img");
       const contents = document.querySelector(".contents");
       const btnLeft = document.getElementById("btn-left");
@@ -96,5 +97,5 @@
         btnRight.disabled = imgOn === positions.length - 1;
       };
     </script>
-  </body>
+</body>
 </html>

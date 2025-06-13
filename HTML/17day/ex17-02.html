@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Document</title>
+<style>
       .modal1 {
         margin: 0;
         padding: 0;
@@ -57,28 +58,27 @@
         cursor: pointer;
       }
     </style>
-  </head>
-  <body>
-    <!-- div.modal>div.login>h2{로그인}+form>input+input+button+button -->
-    <div class="modal1">
-      <div class="login">
-        <h2>로그인</h2>
-        <form action="#">
-          <input type="text" />
-          <input type="text" />
-          <button type="submit" id="disp">로그인</button>
-          <button type="reset" id="cancelBtn">취소</button>
-        </form>
-      </div>
-    </div>
-    <div class="modal2">
-      <p>이 내용은 영국으로 부터 시작되어...</p>
-    </div>
-
-    <h1>간단한 내용들</h1>
-    <button id="login-Btn" onclick="login()">로그인</button>
-    <button id="alert-btn" onclick="alert1()">알림</button>
-    <h3>
+</head>
+<body><h3><a href="../../index.html">홈으로 돌아가기</a></h3>
+<!-- div.modal>div.login>h2{로그인}+form>input+input+button+button -->
+<div class="modal1">
+<div class="login">
+<h2>로그인</h2>
+<form action="#">
+<input type="text"/>
+<input type="text"/>
+<button id="disp" type="submit">로그인</button>
+<button id="cancelBtn" type="reset">취소</button>
+</form>
+</div>
+</div>
+<div class="modal2">
+<p>이 내용은 영국으로 부터 시작되어...</p>
+</div>
+<h1>간단한 내용들</h1>
+<button id="login-Btn" onclick="login()">로그인</button>
+<button id="alert-btn" onclick="alert1()">알림</button>
+<h3>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, omnis,
       quaerat non eaque amet, fuga consequatur quibusdam quis corrupti sequi
       exercitationem unde id deserunt repellendus nobis sint aliquid qui nemo
@@ -91,7 +91,7 @@
       reprehenderit aliquam vitae atque, itaque soluta rem ullam culpa? Adipisci
       harum cumque ex.
     </h3>
-    <p>
+<p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maxime
       soluta, harum sit temporibus numquam blanditiis est nesciunt ducimus
       voluptatibus! Eius voluptatum tempore commodi amet soluta maxime iusto
@@ -99,7 +99,7 @@
       tempora reprehenderit, exercitationem quo sapiente itaque et. Praesentium
       veritatis cumque voluptatem iste.
     </p>
-    <p>
+<p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maxime
       soluta, harum sit temporibus numquam blanditiis est nesciunt ducimus
       voluptatibus! Eius voluptatum tempore commodi amet soluta maxime iusto
@@ -107,8 +107,7 @@
       tempora reprehenderit, exercitationem quo sapiente itaque et. Praesentium
       veritatis cumque voluptatem iste.
     </p>
-
-    <script>
+<script>
       const openBtn = document.querySelector("#login-Btn"); //로그인
       const modal1 = document.querySelector(".modal1"); // 모달
       const alertBtn = document.querySelector("#alert-btn");
@@ -127,5 +126,5 @@
       });
       const alert1 = () => {};
     </script>
-  </body>
+</body>
 </html>

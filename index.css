@@ -1,210 +1,85 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
-    margin: 0;
-    font-family: "Arial", sans-serif;
-    background: #fff;
-    color: #222;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-image: url("image/siba.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #2c3e50;
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.calendar-nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem 3rem;
-    z-index: 1000;
-    border-bottom: none;
+    gap: 10px;
+    margin-bottom: 30px;
 }
 
-.nav-left .logo {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.nav-right a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 2rem;
-    transition: color 0.3s ease;
-}
-
-.nav-right a:hover {
-    color: #ffd369;
-}
-
-header {
-    background: #2c3e50;
-    color: white;
-    padding: 6rem 2rem 3rem;
-    /* nav 가림 방지용 padding-top 증가 */
-    text-align: center;
-    margin-top: 0;
-}
-
-section {
-    padding: 2rem;
-    max-width: 1000px;
-    margin: auto;
-}
-
-h2 {
-    text-align: center;
-    font-weight: 900;
-    margin-bottom: 1rem;
-}
-
-hr {
-    width: 100px;
-    border: 1.5px solid #000;
-    margin: 0 auto 2rem;
-}
-
-.about-container {
+.calendar-row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1.5rem;
-    padding: 0 1rem;
-}
-
-.about-item {
-    width: 200px;
-    text-align: center;
-    background: #f5f5f5;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.about-item span {
-    display: block;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 0.3rem;
-}
-
-.about-item p {
-    margin: 0.3rem 0;
-    font-size: 0.95rem;
-    color: #555;
-}
-
-.skill-category {
-    margin-bottom: 3rem;
-}
-
-.skill-category h3 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-.skill-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.skill-item {
-    width: 100px;
-    text-align: center;
-    background: white;
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.skill-item img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-}
-
-.skill-item span {
-    display: block;
-    margin-top: 0.5rem;
-    font-size: 0.85rem;
-    color: #333;
-}
-
-.project {
-    background: #f9f9f9;
-    padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-}
-
-.license-container,
-.career-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
     justify-content: center;
-    margin-top: 1.5rem;
+    gap: 10px;
+    flex-wrap: nowrap;
 }
 
-.license-card,
-.career-card {
-    width: 260px;
-    padding: 1rem;
-    border-radius: 10px;
-    background: #f2f2f2;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.license-card strong,
-.career-card strong {
-    display: block;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    color: #333;
-}
-
-.license-card small,
-.career-card small {
-    color: #666;
-}
-
-footer {
-    background-color: #222;
-    color: #ccc;
-    text-align: center;
-    padding: 1.5rem 0;
-    position: relative;
-    margin-top: 5rem;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
-
-#scrollToTop {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: #ccc;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1.2rem;
+.calendar-button {
+    width: 100%;
+    min-width: 100px;
+    /* 💡 추천 */
+    max-width: 120px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    color: #ffcc00;
     cursor: pointer;
-    display: none;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-    transition: background 0.3s;
+    transition: 0.3s;
 }
 
-#scrollToTop:hover {
-    background-color: #aaa;
+.calendar-button:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.day-section {
+    display: none;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+td a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
 }

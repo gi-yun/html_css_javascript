@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>이미지 슬라이더</title>
-    <style>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>이미지 슬라이더</title>
+<style>
       #container {
         /* width: 100%; */
         max-width: 320px;
@@ -39,23 +40,22 @@
         background-color: rgba(50, 130, 235, 0);
       }
     </style>
-  </head>
-  <body>
-    <div id="container">
-      <div class="contents">
-        <!-- <img src="https://placecats.com/330/230" alt="" />
+</head>
+<body><h3><a href="../../index.html">홈으로 돌아가기</a></h3>
+<div id="container">
+<div class="contents">
+<!-- <img src="https://placecats.com/330/230" alt="" />
         <img src="https://placecats.com/350/210" alt="" />
         <img src="https://placecats.com/360/220" alt="" />
         <img src="https://placecats.com/360/220" alt="" />
         <img src="https://placecats.com/360/220" alt="" />
         <img src="https://placecats.com/360/220" alt="" />
         <img src="https://placecats.com/370/210" alt="" /> -->
-      </div>
-      <div id="tLeft"></div>
-      <div id="tRight"></div>
-    </div>
-
-    <script>
+</div>
+<div id="tLeft"></div>
+<div id="tRight"></div>
+</div>
+<script>
       const contents = document.querySelector(".contents");
       for (let i = 0; i < 10; i++) {
         const imgs = document.createElement("img");
@@ -95,5 +95,5 @@
       tLeft.addEventListener("click", sLeft);
       tRight.addEventListener("click", sRight);
     </script>
-  </body>
+</body>
 </html>

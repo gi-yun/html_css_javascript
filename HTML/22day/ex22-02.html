@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Document</title>
+<style>
       .btn {
         text-align: center;
         margin: 20px;
@@ -48,24 +49,23 @@
         text-align: center;
       }
     </style>
-  </head>
-  <body>
-    <!-- div.btn>div#time_disp+button*3^div.clock>div#ms+div#ss -->
-    <div class="btn">
-      <div id="time_disp">0 min 0 sec 000 msec</div>
-      <button onclick="st()">시작버튼</button>
-      <button onclick="rec()">기록버튼</button><br />
-      <button onclick="end()">정지버튼</button
-      ><button onclick=" reset()">리셋버튼</button>
-    </div>
-    <div class="clock">
-      <div id="ms"></div>
-      <div id="ss"></div>
-    </div>
-    <ol id="rec-disp">
+</head>
+<body><h3><a href="../../index.html">홈으로 돌아가기</a></h3>
+<!-- div.btn>div#time_disp+button*3^div.clock>div#ms+div#ss -->
+<div class="btn">
+<div id="time_disp">0 min 0 sec 000 msec</div>
+<button onclick="st()">시작버튼</button>
+<button onclick="rec()">기록버튼</button><br/>
+<button onclick="end()">정지버튼</button><button onclick=" reset()">리셋버튼</button>
+</div>
+<div class="clock">
+<div id="ms"></div>
+<div id="ss"></div>
+</div>
+<ol id="rec-disp">
       [기록]
     </ol>
-    <script>
+<script>
       let s_sec = (id = end_sec = msec = min = sec = s = m = 0);
       const ms = document.getElementById("ms");
       const ss = document.getElementById("ss");
@@ -106,5 +106,5 @@
         parent.removeChild(li);
       }
     </script>
-  </body>
+</body>
 </html>
